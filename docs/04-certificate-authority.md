@@ -248,7 +248,7 @@ kube-proxy.pem
 
 ### The Scheduler Client Certificate
 
-Generate the `kube-scheduler` client certificate and private key:
+Generate the [kube-scheduler](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/) client certificate and private key:
 
 ```
 {
@@ -294,7 +294,7 @@ kube-scheduler.pem
 
 The `kubernetes-the-hard-way` static IP address will be included in the list of subject alternative names for the Kubernetes API Server certificate. This will ensure the certificate can be validated by remote clients.
 
-Generate the Kubernetes API Server certificate and private key:
+Generate the Kubernetes API Server ([kube-apiserver](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/)) certificate and private key:
 
 ```
 {

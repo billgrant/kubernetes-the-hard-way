@@ -161,7 +161,7 @@ worker-2.pem
 
 ### The Controller Manager Client Certificate
 
-Generate the `kube-controller-manager` client certificate and private key:
+Generate the [kube-controller-manager](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manage) client certificate and private key:
 
 ```
 {

@@ -205,7 +205,7 @@ kube-controller-manager.pem
 
 ### The Kube Proxy Client Certificate
 
-Generate the `kube-proxy` client certificate and private key:
+Generate the [kube-proxy](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/) client certificate and private key:
 
 ```
 {

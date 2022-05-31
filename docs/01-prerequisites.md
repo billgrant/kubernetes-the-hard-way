@@ -42,6 +42,8 @@ Next set a default compute region and compute zone:
 REGION=us-east1
 ZONE=us-east1-b
 ```
+
+```
 gcloud config set compute/region ${REGION}
 ```
 
